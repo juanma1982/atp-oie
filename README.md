@@ -21,14 +21,15 @@ An autonomous Open Information Extraction Method
 
     1. If you are in a Linux environment, you can execute the file “runATP-OIE.sh”, the available options are:
 
- -f : mandatory param, indicates the input text file
- -o : indicates the output file. If not present, the result will be printed in console
- -reverb :  Use reverb for sentences without extractions 
- -clausie : Use ClausIE for sentences without extractions (after using Reverb if it is also set) 
- -trainOnline : if Reverb and/or ClausIE are set, this flag allow the creation of new extraction patterns using the relations extracted of this methods. 
- -score : also prints the score of the exraction
- -full : prints score, id, and if the relation is non factual its dependency
- -help : prints this menu
+ 	-f : mandatory param, indicates the input text file
+ 	-o : indicates the output file. If not present, the result will be printed in console
+ 	-reverb :  Use reverb for sentences without extractions 
+ 	-clausie : Use ClausIE for sentences without extractions (after using Reverb if it is also set) 
+ 	-trainOnline : if Reverb and/or ClausIE are set, this flag allow the creation of new extraction
+			patterns using the relations extracted of this methods. 
+ 	-score : also prints the score of the exraction
+ 	-full : prints score, id, and if the relation is non factual its dependency
+ 	-help : prints this menu
 
 
 	for example, you can execute:
